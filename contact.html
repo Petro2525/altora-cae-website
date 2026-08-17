@@ -1,1 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Contact | Altora Care</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+
+      <a href="index.html" class="logo-link">
+        <img src="images/altora-logo.png" alt="Altora Care Logo" class="logo">
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="support-coordination.html">Support Coordination</a>
+        <a href="support-work.html">Support Work</a>
+        <a href="contact.html" class="nav-button">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+
+        <p class="eyebrow">CONTACT ALTORA CARE</p>
+
+        <h1>Let’s talk about the support you’re looking for.</h1>
+
+        <p class="page-hero-text">
+          Whether you’re an NDIS participant, family member, support coordinator
+          or representative, we’d be happy to hear from you.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+
+          <p class="eyebrow">GET IN TOUCH</p>
+
+          <h2>Start a conversation with Altora Care.</h2>
+
+          <p>
+            Tell us a little about the support you’re looking for and we’ll
+            get back to you to discuss how Altora Care may be able to assist.
+          </p>
+
+
+          <div class="contact-details">
+
+            <div class="contact-detail">
+              <span>01</span>
+
+              <div>
+                <h3>Location</h3>
+                <p>Sydney, NSW</p>
+              </div>
+            </div>
+
+
+            <div class="contact-detail">
+              <span>02</span>
+
+              <div>
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:hello@altoracare.com.au">
+                    hello@altoracare.com.au
+                  </a>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="contact-detail">
+              <span>03</span>
+
+              <div>
+                <h3>Phone</h3>
+                <p>
+                  <a href="tel:+61400000000">
+                    0400 000 000
+                  </a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form-wrapper">
+
+          <form
+            class="contact-form"
+            action="https://formsubmit.co/hello@altoracare.com.au"
+            method="POST"
+          >
+
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Altora Care Website Enquiry"
+            >
+
+            <input
+              type="hidden"
+              name="_captcha"
+              value="false"
+            >
+
+
+            <div class="form-group">
+              <label for="name">Name</label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              >
+            </div>
+
+
+            <div class="form-group">
+              <label for="email">Email</label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email address"
+                required
+              >
+            </div>
+
+
+            <div class="form-group">
+              <label for="phone">Phone</label>
+
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Your phone number"
+              >
+            </div>
+
+
+            <div class="form-group">
+              <label for="support">What support are you looking for?</label>
+
+              <select id="support" name="support">
+
+                <option value="">
+                  Select an option
+                </option>
+
+                <option value="Support Coordination">
+                  Support Coordination
+                </option>
+
+                <option value="Support Work">
+                  Support Work
+                </option>
+
+                <option value="General Enquiry">
+                  General Enquiry
+                </option>
+
+              </select>
+            </div>
+
+
+            <div class="form-group">
+              <label for="message">Tell us a little more</label>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="How can we help?"
+                required
+              ></textarea>
+            </div>
+
+
+            <button type="submit" class="button primary-button form-button">
+              Send Enquiry
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICE AREA -->
+    <section class="service-area-section">
+
+      <div class="container service-area-box">
+
+        <div>
+
+          <p class="eyebrow">SYDNEY BASED</p>
+
+          <h2>Supporting participants across Sydney.</h2>
+
+          <p>
+            Contact us to discuss your location, availability and the type of
+            support you’re looking for.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+      <div>
+
+        <img
+          src="images/altora-logo.png"
+          alt="Altora Care"
+          class="footer-logo"
+        >
+
+        <p>
+          Personalised NDIS support focused on choice,
+          independence and meaningful outcomes.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h4>Quick Links</h4>
+
+        <a href="about.html">About</a>
+        <a href="support-coordination.html">Support Coordination</a>
+        <a href="support-work.html">Support Work</a>
+        <a href="contact.html">Contact</a>
+
+      </div>
+
+
+      <div>
+
+        <h4>Altora Care</h4>
+
+        <p>NDIS Support Services</p>
+        <p>Sydney, NSW</p>
+
+      </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+      <p>©️ 2026 Altora Care. All rights reserved.</p>
+
+      <p>
+        Altora Care is an independent provider and is not affiliated with
+        or endorsed by the National Disability Insurance Agency.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("mainNav").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
